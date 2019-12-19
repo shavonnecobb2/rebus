@@ -892,6 +892,16 @@ const rebuses = [
     symbols: ['⚫', '+', '🕷'],
     words: ['black', 'widow'],
     hint: ['A very poisonous spider.']
+  },
+  {
+    symbols: ['NIGHT', '+', '🤴'],
+    words: ['night', 'king'],
+    hint: ['Scary Royalty.']
+  },
+  {
+    symbols: ['🔴', '+', '👰 💒' ],
+    words: ['red', 'wedding'],
+    hint: ['A ceremony you would not want to attend.']
   }
 ];
 
