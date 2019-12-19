@@ -891,7 +891,7 @@ const rebuses = [
   {
     symbols: ['⚫', '+', '🕷'],
     words: ['black', 'widow'],
-    hint: ['A poisonous spider.']
+    hint: ['A very poisonous spider.']
   }
 ];
 
