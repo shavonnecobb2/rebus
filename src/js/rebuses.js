@@ -891,7 +891,6 @@ const rebuses = [
   {
     symbols: ['⚫', '+', '🕷'],
     words: ['black', 'widow'],
-<<<<<<< HEAD
     hint: ['A very poisonous spider.']
   },
   {
@@ -903,9 +902,6 @@ const rebuses = [
     symbols: ['🔴', '+', '👰 💒' ],
     words: ['red', 'wedding'],
     hint: ['A ceremony you would not want to attend.']
-=======
-    hint: ['A poisonous spider.']
->>>>>>> 5e0436362c67840048b092d3831eb141136c17fd
   }
 ];
 
