@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-html,
-body,
-.root,
-.app {
+html, body, .root, .app {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -85,6 +81,7 @@ body,
   grid-column-start: 2;
   grid-column-end: span 3;
   grid-row-start: 3;
+  font-size: 25px;
 }
 
 .word {
@@ -111,8 +108,7 @@ body,
   background-color: #0000004d;
 }
 
-.word__char:active,
-.word__char:focus {
+.word__char:active, .word__char:focus {
   background-color: #0000001f;
 }
 
@@ -134,9 +130,7 @@ body,
   fill: #fff;
 }
 
-.change-button:hover path,
-.change-button:active path,
-.change-button:focus path {
+.change-button:hover path, .change-button:active path, .change-button:focus path {
   fill: rgba(239, 190, 7, 0.8);
 }
 
@@ -204,16 +198,13 @@ progress[value]::-webkit-progress-value {
 }
 
 @keyframes octocat-wave {
-  0%,
-  100% {
+  0%, 100% {
     transform: rotate(0);
   }
-  20%,
-  60% {
+  20%, 60% {
     transform: rotate(-25deg);
   }
-  40%,
-  80% {
+  40%, 80% {
     transform: rotate(10deg);
   }
 }
@@ -295,6 +286,7 @@ progress[value]::-webkit-progress-value {
  * animation flip-vertical-right
  * ----------------------------------------
  */
+
 @keyframes flip-vertical-right {
   0% {
     transform: rotateY(0);
@@ -309,6 +301,7 @@ progress[value]::-webkit-progress-value {
  * animation flip-vertical-left
  * ----------------------------------------
  */
+
 @keyframes flip-vertical-left {
   0% {
     transform: rotateY(0);
@@ -322,15 +315,12 @@ progress[value]::-webkit-progress-value {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
-
   20%, 80% {
     transform: translate3d(2px, 0, 0);
   }
-
   30%, 50%, 70% {
     transform: translate3d(-4px, 0, 0);
   }
-
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
